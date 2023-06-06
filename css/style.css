@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+/* .container
+{
+    width: 100%;
+    height : 100vh;
+    color: black;
+    background: #29bdc1;
+} */
+.bg_img
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1527977966376-1c8408f9f108?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.form_box
+{
+    /* width: 60%; */
+    width: 380px;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background: #c7cdc7;
+    padding: 50px 60px 70px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 260px;
+    border-radius: 60px;
+}
+
+
+.form_box h1{
+    font-size: 23px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form_box h1::after
+{
+    content: '';
+    width: 80px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+
+input{
+    border: 1px solid red;
+    width: 80%;
+    background: transparent;
+    /* border: 0; */
+    font-size: 0.8em;
+    padding: 8px;
+    background: white;
+    outline: salmon solid;
+}
+
+.form_box i{
+    margin-right: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    color: black;
+    /* border: 1px solid red; */
+    font-size: 1.3em;
+    transform: translateY(15%);
+  
+    
+}
+
+.img{
+    width:100px;
+    height: 100%;
+
+}
+
+
+.form_element
+{
+    font-size: 20px;
+   font-style: normal;
+   font-family: serif;
+   margin: 20px 0px;
+}
+.container p{
+    /* border: 1px red solid; */
+    margin-top: -30px;
+}
+
+.btn_field button
+{
+    /* flex-basis: 30%; */
+    background: #5e1ae8;
+    color: #fff;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: backgroud 1s;
+    padding:10px;
+
+    margin: 20px;
+}
+/* .input_group
+{
+    height: 190px;
+} */
+.btn_field button.disable
+{
+    background: #948989;
+}
+/*  */
+#id_fg
+{
+    margin-top: 5px;
+}
+
+.drdo_image{
+    width: 12%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#id_register
+{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#id_img1 {
+    position: absolute;
+    margin-top: 4px;
+    /* border-radius: 10px; */
+    width: 5%;
+    left: 80%;
+    
+    
+  }
